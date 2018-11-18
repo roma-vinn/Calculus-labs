@@ -1,0 +1,35 @@
+Task 1
+The set is limited by x^4 + y^4 <= 1
+
+Split method:
+
+	 n = 4
+Calculated measure: 3.3828125
+Error: 0.44921875
+Time: 0.027274999999999938
+
+	 n = 6
+Calculated measure: 3.631103515625
+Error: 0.114501953125
+Time: 0.328935
+
+	 n = 8
+Calculated measure: 3.690399169921875
+Error: 0.0287322998046875
+Time: 5.021618999999999
+
+Monte-Carlo method:
+
+	 n = 100
+Calculated measure: 3.84
+Time: 0.0002250000000003638
+
+	 n = 1000
+Calculated measure: 3.74
+Time: 0.0020199999999999108
+
+	 n = 10000
+Calculated measure: 3.7088
+Time: 0.019847999999999644
+
+
