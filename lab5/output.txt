@@ -1,0 +1,5 @@
+Actual robot coordinates: (1.47145407, 4.22189136)
+Supposed coordinates: (1.47145405, 4.22189132)
+Delta: 0.00000003
+Average error is 0.03556754
+
