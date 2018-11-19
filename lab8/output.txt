@@ -1,35 +1,30 @@
-Task 1
-The set is limited by x^4 + y^4 <= 1
-
+Task 1 b)
+The set is limited by x1^2 + x2^2 <= 1 and x1 + x2 <= x3 <= 2x1 + 3x2
+    
 Split method:
 
 	 n = 4
-Calculated measure: 3.3828125
-Error: 0.44921875
-Time: 0.027274999999999938
+Calculated measure: 0.999267578125
+Error: 1.15283203125
+Time: 3.2270659999999998
 
-	 n = 6
-Calculated measure: 3.631103515625
-Error: 0.114501953125
-Time: 0.328935
-
-	 n = 8
-Calculated measure: 3.690399169921875
-Error: 0.0287322998046875
-Time: 5.021618999999999
+	 n = 5
+Calculated measure: 1.23052978515625
+Error: 0.5845947265625
+Time: 26.990271
 
 Monte-Carlo method:
 
 	 n = 100
-Calculated measure: 3.84
-Time: 0.0002250000000003638
+Calculated measure: 1.6280000000000001
+Time: 0.000332000000000221
 
 	 n = 1000
-Calculated measure: 3.74
-Time: 0.0020199999999999108
+Calculated measure: 1.5688
+Time: 0.0029639999999986344
 
 	 n = 10000
-Calculated measure: 3.7088
-Time: 0.019847999999999644
+Calculated measure: 1.47408
+Time: 0.03170799999999829
 
 
