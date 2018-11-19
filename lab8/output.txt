@@ -1,3 +1,38 @@
+Task 1 a)
+The set is limited by x1^4 + x2^4 <= 1
+    
+Split method:
+
+	 n = 4
+Calculated measure: 3.3828125
+Error: 0.44921875
+Time: 0.02441899999999997
+
+	 n = 6
+Calculated measure: 3.631103515625
+Error: 0.114501953125
+Time: 0.33301500000000006
+
+	 n = 8
+Calculated measure: 3.690399169921875
+Error: 0.0287322998046875
+Time: 5.052918999999999
+
+Monte-Carlo method:
+
+	 n = 100
+Calculated measure: 3.8
+Time: 0.00022299999999919606
+
+	 n = 1000
+Calculated measure: 3.764
+Time: 0.001922999999999675
+
+	 n = 10000
+Calculated measure: 3.7052
+Time: 0.020035999999999277
+
+
 Task 1 b)
 The set is limited by x1^2 + x2^2 <= 1 and x1 + x2 <= x3 <= 2x1 + 3x2
     
@@ -6,25 +41,112 @@ Split method:
 	 n = 4
 Calculated measure: 0.999267578125
 Error: 1.15283203125
-Time: 3.2270659999999998
+Time: 3.212383
 
 	 n = 5
 Calculated measure: 1.23052978515625
 Error: 0.5845947265625
-Time: 26.990271
+Time: 25.821574999999996
 
 Monte-Carlo method:
 
 	 n = 100
-Calculated measure: 1.6280000000000001
-Time: 0.000332000000000221
+Calculated measure: 2.22
+Time: 0.00033899999999675856
 
 	 n = 1000
-Calculated measure: 1.5688
-Time: 0.0029639999999986344
+Calculated measure: 1.4208
+Time: 0.0031239999999996826
 
 	 n = 10000
-Calculated measure: 1.47408
-Time: 0.03170799999999829
+Calculated measure: 1.4726000000000001
+Time: 0.029299999999999216
+
+
+Task 2
+Integral of sin(eps(x-y)) dx dy, where x^4 + y^4 <= 1
+    
+Split method:
+
+	 n = 4
+Calculated integral: 1747.2313933182454
+Error: 0.4491103788981832
+Time: 0.023120000000005803
+
+	 n = 6
+Calculated integral: 31054.8786306608
+Error: 0.11450161659245113
+Time: 0.3566980000000015
+
+	 n = 8
+Calculated integral: 508766.2540946231
+Error: 0.028732215357620664
+Time: 5.726557
+
+Monte-Carlo method:
+
+	 n = 100
+Calculated integral: 3.8
+Time: 0.00027999999999650527
+
+	 n = 1000
+Calculated integral: 3.672
+Time: 0.0026930000000007226
+
+	 n = 10000
+Calculated integral: 3.7008
+Time: 0.025464999999996962
+
+
+Task 3
+Measure of x1^2 + x2^2 + ... + xm^2 <= 0.25
+    
+		m = 1
+
+Split method:
+	n = 4
+Calculated measure: 1.1875
+Time: 0.001116000000000117
+
+Monte-Carlo method:
+	n = 10000
+Calculated measure: 1.2552
+Time: 0.019738000000000033
+
+		m = 2
+
+Split method:
+	n = 4
+Calculated measure: 0.66015625
+Time: 0.02631300000000003
+
+Monte-Carlo method:
+	n = 10000
+Calculated measure: 0.792
+Time: 0.030397000000000007
+
+		m = 3
+
+Split method:
+	n = 4
+Calculated measure: 0.978515625
+Time: 2.108046
+
+Monte-Carlo method:
+	n = 10000
+Calculated measure: 1.2112
+Time: 0.035984000000000016
+
+		m = 4
+
+Split method:
+	n = 4
+Calculated measure: 1.462310791015625
+Time: 160.145948
+
+Monte-Carlo method:
+	n = 10000
+Calculated measure: 1.88
+Time: 0.052185000000008586
 
 
